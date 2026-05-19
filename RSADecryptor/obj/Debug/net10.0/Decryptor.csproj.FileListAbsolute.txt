@@ -1,0 +1,14 @@
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\bin\Debug\net10.0\Decryptor.exe
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\bin\Debug\net10.0\Decryptor.deps.json
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\bin\Debug\net10.0\Decryptor.runtimeconfig.json
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\bin\Debug\net10.0\Decryptor.dll
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\bin\Debug\net10.0\Decryptor.pdb
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\obj\Debug\net10.0\Decryptor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\obj\Debug\net10.0\Decryptor.AssemblyInfoInputs.cache
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\obj\Debug\net10.0\Decryptor.AssemblyInfo.cs
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\obj\Debug\net10.0\Decryptor.csproj.CoreCompileInputs.cache
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\obj\Debug\net10.0\Decryptor.dll
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\obj\Debug\net10.0\refint\Decryptor.dll
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\obj\Debug\net10.0\Decryptor.pdb
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\obj\Debug\net10.0\Decryptor.genruntimeconfig.cache
+C:\Users\iamvi\OneDrive\Documentos\Code\C#\RSA\Decryptor\obj\Debug\net10.0\ref\Decryptor.dll
