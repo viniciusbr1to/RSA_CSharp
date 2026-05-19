@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # RSA_FATEC
 Implementação do algoritmo de criptografia RSA em C#.
 
@@ -13,7 +12,4 @@ Implementação do algoritmo de criptografia RSA em C#.
 |--------------|------------------------|
 |Vinicius Brito|Desenvolvimento completo|
 |--------------|------------------------|
-=======
-# RSA_CSharp
-Implementação de um algoritmo de criptografia RSA em C#,  desenvolvido como projeto acadêmico para a FATEC.
->>>>>>> 98ceaa9658109afa980ac320607d89f1d5308b43
+
