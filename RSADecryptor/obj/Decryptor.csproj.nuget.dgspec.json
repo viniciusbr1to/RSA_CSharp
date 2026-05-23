@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iamvi\\OneDrive\\Documentos\\Code\\C#\\RSA\\Decryptor\\Decryptor.csproj": {}
+    "C:\\Users\\iamvi\\OneDrive\\Documentos\\Repositórios\\RSA_CSharp\\RSAdecryptor\\Decryptor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iamvi\\OneDrive\\Documentos\\Code\\C#\\RSA\\Decryptor\\Decryptor.csproj": {
+    "C:\\Users\\iamvi\\OneDrive\\Documentos\\Repositórios\\RSA_CSharp\\RSAdecryptor\\Decryptor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Code\\C#\\RSA\\Decryptor\\Decryptor.csproj",
+        "projectUniqueName": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Repositórios\\RSA_CSharp\\RSAdecryptor\\Decryptor.csproj",
         "projectName": "Decryptor",
-        "projectPath": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Code\\C#\\RSA\\Decryptor\\Decryptor.csproj",
+        "projectPath": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Repositórios\\RSA_CSharp\\RSAdecryptor\\Decryptor.csproj",
         "packagesPath": "C:\\Users\\iamvi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Code\\C#\\RSA\\Decryptor\\obj\\",
+        "outputPath": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Repositórios\\RSA_CSharp\\RSAdecryptor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iamvi\\AppData\\Roaming\\NuGet\\NuGet.Config"

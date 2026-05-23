@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Code\\C#\\RSA\\Encryptor\\RsaEncryptor.csproj",
+      "projectUniqueName": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Repositórios\\RSA_CSharp\\RSAEncryptor\\RsaEncryptor.csproj",
       "projectName": "RsaEncryptor",
-      "projectPath": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Code\\C#\\RSA\\Encryptor\\RsaEncryptor.csproj",
+      "projectPath": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Repositórios\\RSA_CSharp\\RSAEncryptor\\RsaEncryptor.csproj",
       "packagesPath": "C:\\Users\\iamvi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Code\\C#\\RSA\\Encryptor\\obj\\",
+      "outputPath": "C:\\Users\\iamvi\\OneDrive\\Documentos\\Repositórios\\RSA_CSharp\\RSAEncryptor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\iamvi\\AppData\\Roaming\\NuGet\\NuGet.Config"

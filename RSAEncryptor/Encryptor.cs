@@ -56,58 +56,53 @@ class RSAEncryptor{
    static void Main(){
          long p, q, n, e, d;
          long euler;
+         Random random = new Random();
 
-      Console.WriteLine("Insira o valor de (p): ");
-      p = long.Parse(Console.ReadLine());
-      if(!prime_number(p)){
-         Console.WriteLine("O valor (p) precisa ser um numero primo.");
-         return;
-      }
+    do{
+       p = random.NextInt64(100, 1000);
+    } while(!prime_number(p));
 
-      Console.WriteLine("Insira o valor de (q): ");
-      q = long.Parse(Console.ReadLine());
-      if(!prime_number(q)){
-         Console.WriteLine("O valor (q) precisa ser um numero primo.");
-         return;
-      }
+    
+    do{
+       q = random.NextInt64(100, 1000);
+    } while(!prime_number(q) || q == p);
 
-      n = p * q;
-      euler = (p - 1) * (q - 1);
+    n = p * q;
+    euler = (p - 1) * (q - 1);
 
-      Console.WriteLine("Insira o valor de (e): ");
-      e = long.Parse(Console.ReadLine());
-      if(GCD(e, euler) != 1){
-         Console.WriteLine("mdc(e, phi) deve ser 1.");
-         return;
-      }
+    
+    do{
+       e = random.NextInt64(2, euler);
+    } while(GCD(e, euler) != 1);
 
-      long i = 1;
-      d = 0;
-      while(true){
-         if((i * e) % euler == 1) {
-            d = i;
-            break;
-         }
-         i++;
-      }
-
-      if(n < 256){
-         Console.WriteLine("p * q deve ser maior que 255. Escolha primos maiores.");
-         return;
-      }
-
-      Console.WriteLine($"Chave publica: (n = {n}, e = {e})");
-      Console.WriteLine($"Chave privada: (n = {n}, d = {d})");
-
-      Console.WriteLine("\nInsira o texto para cifrar: ");
-      string text = Console.ReadLine();
-
-      long[] cipher = Encrypt(text, e, n);
-      Console.WriteLine("\nTexto cifrado:");
-      Console.WriteLine(string.Join(" ", cipher));
-
-      string decrypted  = Decrypt(cipher, d, n);
-      Console.WriteLine("\nTexto decifrado: ");
-      Console.WriteLine(decrypted );
+    long i = 1;
+    d = 0;
+    while(true){
+       if((i * e) % euler == 1){
+          d = i;
+          break;
+       }
+       i++;
     }
+
+    if(n < 256){
+       Console.WriteLine("Primos gerados muito pequenos, tente novamente.");
+       return;
+    }
+
+    Console.WriteLine($"Primos gerados: p = {p}, q = {q}");
+    Console.WriteLine($"Chave publica: (n = {n}, e = {e})");
+    Console.WriteLine($"Chave privada: (n = {n}, d = {d})");
+
+    Console.WriteLine("\nInsira o texto para cifrar: ");
+    string text = Console.ReadLine();
+
+    long[] cipher = Encrypt(text, e, n);
+    Console.WriteLine("\nTexto cifrado:");
+    Console.WriteLine(string.Join(" ", cipher));
+
+    string decrypted = Decrypt(cipher, d, n);
+    Console.WriteLine("\nTexto decifrado: ");
+    Console.WriteLine(decrypted);
+   }  
 }
